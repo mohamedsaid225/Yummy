@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div
+        class="loading-screen position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+
+    <div class="side-nav min-vh-100 position-fixed d-flex top-0">
+        <div class="side-inner-left d-flex flex-column justify-content-between min-vh-100 p-4">
+            <div class="nav-links">
+                <ul class="list-unstyled">
+                    <li class="py-2 search cursor-pointer">Search</li>
+                    <li class="py-2 categories cursor-pointer">Categories</li>
+                    <li class="py-2 area cursor-pointer">Area</li>
+                    <li class="py-2 ingredients cursor-pointer">Ingredients</li>
+                    <li class="py-2 contact cursor-pointer">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="footer">
+                    <p>Copyright Â© 2019 All Rights <br> Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="side-inner-right bg-white d-flex flex-column justify-content-between align-items-center py-4 text-black">
+            <img class="w-75" src="images/logo.png" alt="">
+            <i class="fa-solid open-close-icon fa-2x fa-x" style="cursor: pointer;"></i>
+            <div>
+                <i class="fa-solid fa-globe d-block" style="cursor: pointer;"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="py-3" id="searchContainer">
+       
+    </div>
+    
+
+
+    <div class="min-vh-100 position-relative">
+        <div class="innerLoadingScreen top-0 start-0 end-0 bottom-0 justify-content-center align-items-center">
+            <i class="fa-solid fa-spinner fa-spin fa-5x"></i>
+        </div>
+        <div class="container">
+            <div class="row py-4 g-4 " id="rowData">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
